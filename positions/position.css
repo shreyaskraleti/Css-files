@@ -1,0 +1,35 @@
+
+section, div {
+    border: 2px solid blue;
+    padding: 20px;
+    
+}
+
+.rel {
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.abs {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.fix {
+    position: fixed;
+    top: 300px;
+    left: 400px;
+}
+
+body {
+    height: 900px;
+}
+
+.stick {
+    position: sticky;
+    top: 30px;
+   
+    
+}

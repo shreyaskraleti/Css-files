@@ -1,0 +1,14 @@
+
+section, div {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+}
+
+div {
+    flex: 1;
+    margin-right: 15px;
+}

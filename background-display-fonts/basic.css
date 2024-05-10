@@ -1,0 +1,23 @@
+
+section, div {
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+}
+
+section {
+    background-image: url(./amazon-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+div {
+    background: url(./amazon-logo.png) no-repeat top left/ contain,
+    url(./amazon-logo.png) no-repeat top right/ contain,
+    url(./amazon-logo.png) no-repeat center/ contain,
+    url(./amazon-logo.png) no-repeat bottom left/ contain,
+    url(./amazon-logo.png) no-repeat bottom right/ contain;
+
+}

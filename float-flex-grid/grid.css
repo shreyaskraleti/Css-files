@@ -1,0 +1,15 @@
+
+section, div {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+div {
+    margin: 5px;
+}

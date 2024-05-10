@@ -1,0 +1,32 @@
+
+div {
+    border: 1px solid orangered;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    line-height: 200px;
+    position: relative;
+    background: linear-gradient(orange,white,green);
+
+    /* animation properties */
+
+    animation-name: rotateEle;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rotateEle {
+    from{
+        transform: rotate(0deg);
+        left: 0%;
+    }
+
+    to{
+        transform: rotate(360deg);
+        left: 75%;
+    }
+}

@@ -1,0 +1,12 @@
+
+span {
+    border: 2px solid red;
+    width: 500px;
+    display: inline-block;
+}
+
+body {
+    width: 900px;
+    overflow-x: hidden;
+
+}

@@ -1,0 +1,38 @@
+
+.fcontainer {
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+    
+}
+
+.fitem {
+    border: 2px solid yellow;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    flex: 1; /* equal sizing of all the boxes */
+}
+
+.item1 {
+    order: 1;
+    flex: 1.5;
+}
+
+.item2 {
+    order: 1;
+    flex: 1;
+}
+
+.item3 {
+    order: 1;
+    flex: 2;
+}
+
+.item4 {
+    order: 1;
+    flex: 1;
+}
+

@@ -1,0 +1,33 @@
+
+section{
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 10px;
+    height: 100vh;
+}
+
+/* section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./amazon-logo.png);
+    background-size: contain;
+} */
+
+div {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    
+    
+
+} 
+
+#div1, img{
+    background-position: center;
+    height: 100px;
+    width:100px;
+    margin: 30px;
+}
+#div2{
+   
+}

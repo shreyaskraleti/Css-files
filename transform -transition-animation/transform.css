@@ -1,0 +1,21 @@
+
+section, div {
+    border: 1px solid red;
+    text-align: center;
+}
+
+section {
+    transform: translate(30px, 15px);
+}
+
+div:hover {
+    transform: scale(2);
+    background-color: aqua;
+}
+
+figure {
+
+   /* transform: rotate(5deg); */
+   
+   transform: skew(5deg,5deg); 
+}

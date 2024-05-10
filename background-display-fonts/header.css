@@ -1,0 +1,59 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: orangered;
+}
+
+.navbar ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.navbar a {
+    color: grey;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+.navbarIcon i {
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbarIcon i:hover {
+    color: orange;
+}
+
+#anc {
+    border: 1px solid purple;
+    color: purple;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#anc:hover {
+    border: 1px solid orangered;
+    color: orangered;
+}

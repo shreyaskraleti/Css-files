@@ -1,0 +1,16 @@
+
+ul li {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+ul li:nth-child(3) {
+  /*  background-color: aqua;
+   /* display: none; 
+  /* visibility: hidden; */
+    opacity: 0.2;
+
+
+}

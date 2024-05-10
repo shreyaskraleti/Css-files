@@ -1,0 +1,16 @@
+
+section {
+    border: 1px solid red;
+    font-size: small;
+}
+
+section:hover {
+    border: 10px solid blue;
+    background-color: aqua;
+    font-size: large;
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+
+}
