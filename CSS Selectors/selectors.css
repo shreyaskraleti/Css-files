@@ -1,0 +1,31 @@
+
+h2 {
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+    background-color: gold;
+}
+
+p {
+    color: blueviolet;
+    font-style: italic;
+    background-color: pink;
+}
+
+.heading {
+    color: red;
+    background-color: pink;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.anchor {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anchortag {
+    color: blue;
+    font-weight: bold;
+}
