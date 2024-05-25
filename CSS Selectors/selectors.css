@@ -1,4 +1,4 @@
-
+/*
 h2 {
     color: red;
     font-size: large;
@@ -17,6 +17,7 @@ p {
     background-color: pink;
     font-weight: bolder;
     font-style: normal;
+
 }
 
 .anchor {
@@ -28,4 +29,82 @@ p {
 .anchortag {
     color: blue;
     font-weight: bold;
+}
+
+#heading5 {
+    background-color: orange;
+    font-size: large;
+    color: black;
+}
+
+#para2 {
+    background-color: greenyellow;
+    font-size: large;
+    color: black;
+
+} 
+
+ * {
+    color: black;
+    background-color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 5px;
+} */
+
+/* Attribute name 
+a[href] {
+    color: blue;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Attribute value 
+a[target="_blank"] {
+    color: red;
+    font-size: large; 
+}
+
+/* Attribute value starts with 
+
+a[href^="https"] {
+    color: orangered;
+    font-size: xx-large;
+} */
+
+/* Attribute value ends with 
+
+a[href$="com"] {
+    color: darkblue;
+    font-size: xx-large;
+    text-transform: capitalize;
+} 
+
+Attribute value that contains: 
+
+a[href*="oo"] {
+    color: darkblue;
+    font-size: xx-large;
+    text-transform: capitalize;
+} 
+
+Descendant Selector */
+
+section p1 {
+    color: blue;
+    font-size: larger;
+}
+
+#pet p2 {
+    color: red;
+    font-style: italic;
+    font-size: large;
+}
+
+.men p3 {
+    color: green;
+    font-weight: bolder;
+    font-size: xx-large;
 }
